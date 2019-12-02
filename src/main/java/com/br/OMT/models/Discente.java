@@ -72,7 +72,7 @@ public class Discente extends Usuario implements Serializable {
     private FormacaoEmCampus formacaoEmCampus;
 
     @OneToOne(mappedBy = "discente")
-    private DiscenteEstagio discenteEstagio;
+    private CandidatoVaga candidatoVaga;
 
     @OneToMany(fetch = FetchType.EAGER, cascade = ALL, mappedBy = "discente")
     private List<Projetos> projetos;
@@ -152,12 +152,12 @@ public class Discente extends Usuario implements Serializable {
         this.cursos = cursos;
     }
 
-    public DiscenteEstagio getDiscenteEstagio() {
-        return discenteEstagio;
+    public CandidatoVaga getCandidatoVaga() {
+        return candidatoVaga;
     }
 
-    public void setDiscenteEstagio(DiscenteEstagio discenteEstagio) {
-        this.discenteEstagio = discenteEstagio;
+    public void setDiscenteEstagio(CandidatoVaga candidatoVaga) {
+        this.candidatoVaga = candidatoVaga;
     }
 
     public byte[] getRGbanco() {
