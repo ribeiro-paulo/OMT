@@ -6,5 +6,7 @@
 - Emmerson Santa Rita (orientador)
 ### Objetivo
 - O OMT tem por objetivo auxiliar e intermediar egressos, alunos, empresas e o IFAM quanto ao mercado de trabalho para contratação e oferta de minicursos, palestras, workshops, mesas-redondas e demais eventos.
+### Ferramentas
+> HTML, CSS, Java, Mysql, Javascirpt, Bootstrap, Jquery, Scrum e Trello
 
-#### Fábrica de Software - 2019
+### Fábrica de Software - 2019
